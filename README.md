@@ -1,2 +1,2 @@
-# Cross-platform-Labs
+# Cross-platform-labs
  Лабораторные работы по кроссплатформенным технологиям(КТ)
