@@ -1,0 +1,21 @@
+Compiled from "Lab1Skrynnik.java"
+public class Lab1Skrynnik {
+  public Lab1Skrynnik();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #13                 // String Group: 535a
+       5: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       8: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      11: ldc           #21                 // String Student: Skrynnik Yehor Igorevich
+      13: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      16: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      19: ldc           #23                 // String Variant: 14
+      21: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      24: return
+}
