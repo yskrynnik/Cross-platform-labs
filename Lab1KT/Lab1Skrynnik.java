@@ -10,9 +10,24 @@ public class Lab1Skrynnik{
 	* @param args Unused.
 	*/
     public static void main (String[] args){
-          
-        System.out.println("Group: 535a");
-		System.out.println("Student: Skrynnik Yehor Igorevich");
-		System.out.println("Variant: 14");
+        String[] Text = new String[] { 
+		"Group: 535a", 
+		"Student: Skrynnik Yehor Igorevich",
+		"Variant: 14",
+		" *********    ************    *********",
+		"***     ***   ************    *********",
+		"**            ***                ***   ",
+		" **           ***                ***   ",
+        "  ********    ************       ***   ",
+		"         **   ************       ***   ",
+		"*        **   ***                ***   ",
+		"**      **    ***                ***   ",
+		" ********     ************    *********",
+		"  ******      ************    *********"
+		};
+		for(String s : Text)
+		{
+			System.out.println(s);
+		}
     }
 }
