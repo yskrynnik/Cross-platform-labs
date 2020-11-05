@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ToggleGroup?>
+<VBox spacing="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.AirConditionerConfigController">
+   <children>
+      <JFXCheckBox text="Sleep" fx:id="sleepModeSwitchedOn"/>
+      <Label text="Режим:" />
+      <JFXRadioButton text="Охлаждение">
+         <toggleGroup>
+            <ToggleGroup fx:id="modes" />
+         </toggleGroup>
+      </JFXRadioButton>
+      <JFXRadioButton text="Обогрев"  toggleGroup="$modes" />
+      <JFXRadioButton text="Осушение" toggleGroup="$modes"/>
+      <JFXRadioButton text="Вентиляция"  toggleGroup="$modes"/>
+      <JFXRadioButton text="Авто" toggleGroup="$modes" />
+      <Label text="Температура:"/>
+      <JFXSlider fx:id="temperature" blockIncrement="1.0" max="43.0" min="-5.0" prefHeight="27.0" prefWidth="265.0" />
+      <Label text="Наклон вдува:" />
+      <JFXSlider fx:id="swingAngle" blockIncrement="1" max="90" />
+      <Label text="Скорость работы вентилятора:" />
+      <JFXSlider fx:id="fanSpeed" blockIncrement="1.0" min="1" max="5" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>
