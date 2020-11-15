@@ -44,6 +44,7 @@
          </children>
          <columnConstraints>
             <ColumnConstraints />
+            <ColumnConstraints />
          </columnConstraints>
       </GridPane>
       <VBox prefHeight="200.0" prefWidth="300.0" spacing="10" GridPane.columnIndex="1">
