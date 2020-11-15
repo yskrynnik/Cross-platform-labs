@@ -1,4 +1,4 @@
-package templates;
+package templates.singleton;
 
 public class PresidentSingleton {
     private static PresidentSingleton president = null;
